@@ -13,16 +13,31 @@ font-family: 'Nunito', sans-serif;
 }
 
 header{
+    position: fixed;
+    top: 0;
     font-family: 'Michroma', sans-serif;
-    padding: 20px;
     width: 100%;
     background-color: #002851;
     color: #E6F4F1;
 }
 
-#title{
+.title{
+    float: left;
     color: #E6F4F1;
     text-decoration: none;
     font-size: 40px;
 }
 
+nav{
+    float: right;
+}
+
+nav li, a{
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.title, nav{
+    line-height: 100px;
+}
