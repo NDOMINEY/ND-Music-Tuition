@@ -50,3 +50,13 @@ nav li, a:hover{
     font-weight: bolder;
     font-size: larger;
 }
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    line-height: 50px;
+    background-color: #002851;
+    color: #E6F4F1;
+    text-align: center;
+}
