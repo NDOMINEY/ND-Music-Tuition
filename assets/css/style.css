@@ -93,21 +93,43 @@ form{
     padding: 50px 10% 150px 10%;
 }
 
-fieldset, legend{
+#main_form, #main_form > legend{
     text-align: center;
     padding: 5px;
     border: #002851 2px solid;
     border-radius: 5px;
 }
 
-fieldset{
-    height: 500px;
+#main_form{
+    height: 700px;
     background-image: url(/assets/images/contact_background.jpg);
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: cover;
+
+    /* creating grid section */
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+
+    text-align: left;
+}
+
+#main_form > legend{
+    background-color: #5E8FC2;
 }
 
 legend{
-    background-color: #5E8FC2;
+    padding: 5px;
+}
+
+.form_section{
+    padding: 10%;
+}
+
+hr{
+    margin-bottom: 10px;
+}
+
+.form_section input{
+    margin-bottom: 10px;
 }
