@@ -31,9 +31,8 @@ header{
     text-align: center;
 }
 
-nav li, a{
+#nav li{
     float: right;
-    display: inline-block;
     margin-right: 20px;
     list-style-type: none;
     text-decoration: none;
@@ -41,22 +40,46 @@ nav li, a{
     line-height: 100px;
 }
 
-nav li, a:hover{
+#nav a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #E6F4F1;
+}
+
+#nav a:hover{
     color: #E09F20;
 }
 
-.active_page{
-    color: #E09F20;
+#nav a.active_page{
     font-weight: bolder;
     font-size: larger;
+    color: #E09F20;
 }
 
 footer{
     position: fixed;
     bottom: 0;
     width: 100%;
-    line-height: 50px;
+    height: 75px;
     background-color: #002851;
-    color: #E6F4F1;
+}
+
+#media_links{
     text-align: center;
+}
+
+#media_links li{
+    display: inline;
+}
+
+#media_links a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #E6F4F1;
+    line-height: 75px;
+    margin: 25px;
+}
+
+#media_links i{
+    font-size: x-large;
 }
