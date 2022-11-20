@@ -34,10 +34,82 @@
     <form>
         <fieldset>
             <legend>Contact us</legend>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="fname"><br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email"><br>
+
+            <div class="form_section">
+
+                <h2>About You</h2>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="fname" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0]{1}[0-9]{10}" required><br>
+
+                <P>Please select your age range below:</P>
+                <label for="age0-7">Under 7</label>
+                <input type="radio" id="age0-7" name="age" value="0-7" required>
+                <label for="age8-11">8-11</label>
+                <input type="radio" id="age8-11" name="age" value="8-11" required>
+                <label for="age12-18">12-18</label>
+                <input type="radio" id="age12-18" name="age" value="12-18" required>
+                <label for="age18+">over 18</label>
+                <input type="radio" id="age18+" name="age" value="18+" required>
+
+            </div>
+
+            <div class="form_section">
+
+                <h2>Instrument and Lessons</h2>
+
+                <p>Instrument(s):</p>
+
+                <label for="drums">Drums</label>
+                <input type="checkbox" id="drums" name="Instrument" value="Drums" required>
+                <label for="bass">Bass</label>
+                <input type="checkbox" id="bass" name="Instrument" value="Bass" required>
+                <label for="guitar">Guitar</label>
+                <input type="checkbox" id="guitar" name="Instrument" value="Guitar" required>
+                <label for="keys">Piano/Keys</label>
+                <input type="checkbox" id="keys" name="Instrument" value="Keys" required>
+
+                <p>Lesson Method:</p>
+
+                <label for="person">In Person</label>
+                <input type="radio" id="person" name="lesson_type" value="In_Person" required>
+                <label for="remote">Remote</label>
+                <input type="radio" id="remote" name="lesson_type" value="Remote" required>
+
+                <p>Frequency</p>
+
+                <label for="weekly">Weekly</label>
+                <input type="radio" id="weekly" name="frequency" value="weekly" required>
+                <label for="2weekly">Fortnightly</label>
+                <input type="radio" id="2weekly" name="frequency" value="2weekly" required>
+                <label for="unsure">Unsure</label>
+                <input type="radio" id="unre" name="frequency" value="unsure" required>
+
+                <p>Booking Preference</p>
+
+                <label for="evening">Evening</label>
+                <input type="radio" id="30min" name="booking" value="evening" required>
+                <label for="weekend">Weekend</label>
+                <input type="radio" id="weekend" name="booking" value="weekend" required>
+
+            </div>
+
+            <div class="form_section">
+
+                <h2>Additional Comments/Questions</h2>
+
+                <textarea name="comment" rows="4" cols="50"></textarea>
+                
+                <input type="submit">
+
+            </div>
+
+
+
         </fieldset>
     </form>
 
