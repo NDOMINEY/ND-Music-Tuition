@@ -152,3 +152,28 @@ hr{
 #submitted_form > legend{
     background-color: #5E8FC2;
 }
+
+/* Media queries for grid columns on contact us form */
+
+@media only screen and (max-width: 1250px) {
+    .main_form{
+        height: 1100px;
+        display: grid;
+        grid-template-columns:repeat(2, 1fr);
+        grid-template-rows: 300px;
+    
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .main_form{
+        height: 1700px;
+        display: grid;
+        grid-template-columns:repeat(1, 1fr);
+        grid-template-rows: repeat(3,325px);
+    
+        text-align: left;
+        padding-bottom: 0;
+    }
+}
