@@ -19,6 +19,7 @@ header{
     background-color: #002851;
     color: #E6F4F1;
     max-height: 100px;
+    z-index: 1;
 }
 
 .title{
@@ -89,7 +90,7 @@ footer{
 form{
     position: relative;
     top: 100px;
-    padding: 50px 10% 0 10%;
+    padding: 50px 10% 150px 10%;
 }
 
 fieldset, legend{
@@ -97,6 +98,14 @@ fieldset, legend{
     padding: 5px;
     border: #002851 2px solid;
     border-radius: 5px;
+}
+
+fieldset{
+    height: 500px;
+    background-image: url(/assets/images/contact_background.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
 }
 
 legend{
