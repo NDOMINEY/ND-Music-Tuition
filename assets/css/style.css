@@ -93,14 +93,14 @@ form{
     padding: 50px 10% 150px 10%;
 }
 
-#main_form, #main_form > legend{
+.main_form, .main_form > legend{
     text-align: center;
     padding: 5px;
     border: #002851 2px solid;
     border-radius: 5px;
 }
 
-#main_form{
+.main_form{
     height: 700px;
     background-image: url(/assets/images/contact_background.jpg);
     background-repeat: no-repeat;
@@ -114,7 +114,7 @@ form{
     text-align: left;
 }
 
-#main_form > legend{
+.main_form > legend{
     background-color: #5E8FC2;
 }
 
@@ -132,4 +132,23 @@ hr{
 
 .form_section input{
     margin-bottom: 10px;
+}
+
+#submitted_form, #submitted_form > legend{
+    text-align: center;
+    padding: 5px;
+    border: #002851 2px solid;
+    border-radius: 5px;
+}
+
+#submitted_form{
+    height: 500px;
+    background-image: url(/assets/images/contact_background.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+
+#submitted_form > legend{
+    background-color: #5E8FC2;
 }
