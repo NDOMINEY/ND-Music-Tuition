@@ -180,13 +180,21 @@ hr{
 
 /* Styling for Lesson and Prices grid section */
 
+#lesson_container{
+    background-image: url(/assets/images/lessons_sheetmusic.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 150px 10% 150px 10%;
+    border:#002851 2px solid;
+    border-radius: 5px;
+}
+
 .lessons{
-    margin-top: 100px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2, 0.5fr 1fr);
-    padding: 5% 10%;
+    grid-template-rows: repeat(2, 0.75fr 1fr);
     grid-column-gap: 25px;
+    padding: 0 25px 25px 25px;
 }
 
 #lesson_header{
@@ -198,11 +206,12 @@ hr{
     grid-row: 150px;
 }
 
-.lessons > div{
+.lessons > .boxes{
     text-align: center;
     padding: 0 25px;
     border: #002851 2px solid;
     border-radius: 5px;
     background-color: #5E8FC2;
-    box-shadow: inset;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    
 }
