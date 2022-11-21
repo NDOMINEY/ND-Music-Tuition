@@ -177,3 +177,32 @@ hr{
         padding-bottom: 0;
     }
 }
+
+/* Styling for Lesson and Prices grid section */
+
+.lessons{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2, 0.5fr 1fr);
+    padding: 5% 10%;
+    grid-column-gap: 25px;
+}
+
+#lesson_header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    grid-row: 150px;
+}
+
+.lessons > div{
+    text-align: center;
+    padding: 0 25px;
+    border: #002851 2px solid;
+    border-radius: 5px;
+    background-color: #5E8FC2;
+    box-shadow: inset;
+}
