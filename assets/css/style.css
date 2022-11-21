@@ -198,12 +198,23 @@ hr{
 }
 
 #lesson_header{
-    grid-column-start: 1;
-    grid-column-end: 4;
+    grid-area: 1 / 1 / span 1 / span 3;
     text-align: center;
     border: none;
     background-color: transparent;
     grid-row: 150px;
+}
+
+#price_header{
+    grid-area: 3 / 1 / span 1 / span 3;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    grid-row: 150px;
+}
+
+.lessonh2{
+    background: linear-gradient(to right, transparent, #E6F4F1, transparent);
 }
 
 .lessons > .boxes{
@@ -214,4 +225,29 @@ hr{
     background-color: #5E8FC2;
     box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
     
+}
+
+@media only screen and (max-width: 850px) {
+    .lessons{
+        display: grid;
+        grid-template-columns:repeat(1, 1fr);
+        grid-template-rows: repeat(4, 0.75fr, 1fr, 1fr, 1fr);
+        row-gap: 25px;
+    }
+
+    #lesson_header{
+        grid-area: 1 / 1 / span 1 / span 1;
+        text-align: center;
+        border: none;
+        background-color: transparent;
+        grid-row: 150px;
+    }
+
+    #price_header{
+        grid-area: 5 / 1 / span 1 / span 1;
+        text-align: center;
+        border: none;
+        background-color: transparent;
+        grid-row: 150px;
+    }
 }
