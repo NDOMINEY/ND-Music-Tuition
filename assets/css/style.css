@@ -264,6 +264,14 @@ hr{
 
 .tab label{
     position: relative;
+    background: #5E8FC2;
+    border: #002851 2px solid;
+    margin-left: -1px;
+    min-width: 20vh;
+}
+
+.tab [type=radio]{
+    display:none;
 }
 
 .content{
@@ -271,15 +279,20 @@ hr{
     visibility: hidden;
     top: 200px;
     left: 10%;
+    width: 80%;
+    min-height: 400px;
+    margin-bottom: 150px;
     background-color: #E6F4F1;
+    border:#002851 2px solid;
+    border-radius: 5px;
 }
 
-[type=radio]:checked ~ label {
-    background: white;
-    border-bottom: 1px solid white;
+.tab [type=radio]:checked ~ label {
+    background: #E09F20;
+    color: #002851;
 }
 
-[type=radio]:checked ~ label ~ .content {
+.tab [type=radio]:checked ~ label ~ .content {
     visibility: visible;
 }
 
