@@ -288,7 +288,16 @@ hr{
     border:#002851 2px solid;
     border-radius: 5px;
     padding: 2.5%;
-    overflow: scroll;
+    overflow: auto;
+}
+
+#scroll{
+    box-sizing: border-box;
+    background: transparent;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 0;
+    border-radius: 5px;
 }
 
 .content p{
@@ -305,6 +314,42 @@ hr{
 #retailers{
     text-align: center;
 }
+
+
+.shop_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30%;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.shop_link{
+    box-shadow: 0px 1px 0px 0px #1c1b18;
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	background-color: #E6F4F1;
+	border-radius:5px;
+	border:2px solid #002851;
+	cursor:pointer;
+	color: #002851;
+	padding:10px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+
+.shop_link:hover {
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	background-color:#ccc2a6;
+}
+.shop_link:active {
+	position:relative;
+	top:1px;
+}
+
 
 .drum_pic{
     background-image: url(/assets/images/Drums.jpg);
