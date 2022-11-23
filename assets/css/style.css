@@ -250,6 +250,10 @@ hr{
         background-color: transparent;
         grid-row: 150px;
     }
+
+    .media{
+        grid-template-columns: 1,1fr;
+    }
 }
 
 /* Instruments Page tab styling */
@@ -278,13 +282,42 @@ hr{
     position: absolute;
     visibility: hidden;
     top: 200px;
+    bottom: 150px;
     left: 10%;
     width: 80%;
-    min-height: 400px;
-    margin-bottom: 150px;
-    background-color: #E6F4F1;
     border:#002851 2px solid;
     border-radius: 5px;
+    padding: 2.5%;
+    overflow: scroll;
+}
+
+.content p{
+    box-sizing: border-box;
+    background-color: rgba(224, 159, 32, 0.9);
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 25px;
+    padding: 25px;
+    border-radius: 5px;
+    color: #002851;
+}
+
+#retailers{
+    text-align: center;
+}
+
+.drum_pic{
+    background-image: url(/assets/images/Drums.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.media{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 10px;
+    margin-top: 25px;
+
 }
 
 .tab [type=radio]:checked ~ label {
@@ -296,3 +329,10 @@ hr{
     visibility: visible;
 }
 
+@media only screen and (max-width: 850px) {
+    .media{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        row-gap: 10px;
+    }
+}
