@@ -69,6 +69,61 @@ header{
     color: #E09F20;
 }
 
+/* Hamburger Menu */
+
+#hamburger-input{
+    display: none;
+}
+
+#hamburger-menu {
+    position: fixed;
+    visibility: hidden;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(
+      to bottom, 
+      #E6F4F1, #E6F4F1 20%, 
+      #002851 20%, #002851 40%, 
+      #E6F4F1 40%, #E6F4F1 60%, 
+      #002851 60%, #002851 80%, 
+      #E6F4F1 80%, #E6F4F1 100%
+    );
+}
+
+#sidebar-menu {
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #5E8FC2;
+    transition: 0.3s;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#sidebar-menu li{
+    line-height: 50px;
+}
+
+
+
+@media only screen and (max-width: 804px) {
+    #hamburger-menu{
+        visibility: visible;
+    }
+
+    #nav{
+        visibility: hidden;
+    }
+}
+
+
+/* Footer */
+
 footer{
     position: fixed;
     bottom: 0;
