@@ -85,6 +85,15 @@ footer{
     font-size: x-large;
 }
 
+/* Home/about page */
+
+.studio_container{
+    background-image: url(/assets/images/studio.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
 /*Contact form section*/
 
 form{
