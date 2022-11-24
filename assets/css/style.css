@@ -292,11 +292,14 @@ hr{
 }
 
 #scroll{
-    box-sizing: border-box;
-    background: transparent;
-    width: 70%;
-    margin-left: 15%;
-    margin-top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#scroll span{
+    background-color: #002851;
+    color: #E6F4F1;
+    padding: 5px;
     border-radius: 5px;
 }
 
@@ -330,7 +333,6 @@ hr{
 
 .shop_link{
     box-shadow: 0px 1px 0px 0px #1c1b18;
-	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
 	background-color: #E6F4F1;
 	border-radius:5px;
 	border:2px solid #002851;
@@ -338,12 +340,11 @@ hr{
 	color: #002851;
 	padding:10px 20px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #ffffff;
 }
 
 .shop_link:hover {
-	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
-	background-color:#ccc2a6;
+	background:linear-gradient(to bottom, #5E8FC2 5%, #89b3df 100%);
+	color: #1c1b18;
 }
 .shop_link:active {
 	position:relative;
