@@ -374,6 +374,12 @@ hr{
     background-size: cover;
 }
 
+.keys_pic{
+    background-image: url(/assets/images/keys.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 .media{
     display: grid;
     grid-template-columns: repeat(2,1fr);
