@@ -11,6 +11,18 @@ font-family: 'Nunito', sans-serif;
     font-family: 'Nunito', sans-serif;
 }
 
+.background_img{
+    background-image: url(/assets/images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.background_colour{
+    background-color: #E6F4F1;
+}
+
+
 header{
     position: fixed;
     top: 0;
