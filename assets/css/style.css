@@ -99,17 +99,39 @@ header{
     right: 0;
     width: 200px;
     height: 100%;
-    background-color: #5E8FC2;
+    background-color: #002851;
     transition: 0.3s;
     padding: 0px;
     box-sizing: border-box;
+    border-left: #E6F4F1 4px solid;
 }
 
 #sidebar-menu li{
     line-height: 50px;
+    list-style-type: none;
+    text-align: right;
+    padding-right: 25px;
 }
 
+#sidebar-menu a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #E6F4F1;
+}
 
+#sidebar-menu a:hover{
+    color: #E09F20;
+}
+
+#sidebar-menu a.active_page{
+    font-weight: bolder;
+    font-size: larger;
+    color: #E09F20;
+}
+
+#hamburger-input:checked + #hamburger-menu #sidebar-menu {
+    visibility: visible;
+}
 
 @media only screen and (max-width: 804px) {
     #hamburger-menu{
@@ -118,6 +140,10 @@ header{
 
     #nav{
         visibility: hidden;
+    }
+
+    .title{
+        font-size: 25px;
     }
 }
 
