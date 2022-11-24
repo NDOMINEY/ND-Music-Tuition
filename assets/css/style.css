@@ -259,7 +259,7 @@ hr{
 /* Instruments Page tab styling */
 
 .tab_container{
-    margin: 150px 10% 150px 10%;
+    margin: 165px 10% 150px 10%;
 }
 
 .tab{
@@ -272,6 +272,10 @@ hr{
     border: #002851 2px solid;
     margin-left: -1px;
     min-width: 20vh;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-left: 5px;
+    padding: 10px;
 }
 
 .tab [type=radio]{
@@ -354,6 +358,18 @@ hr{
 
 .drum_pic{
     background-image: url(/assets/images/Drums.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.bass_pic{
+    background-image: url(/assets/images/bass.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.guitar_pic{
+    background-image: url(/assets/images/guitar.jpg);
     background-position: center;
     background-size: cover;
 }
