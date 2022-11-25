@@ -12,7 +12,7 @@ font-family: 'Nunito', sans-serif;
 }
 
 .background_img{
-    background-image: url(assets/images/background.jpg);
+    background-image: url(../assets/images/background.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -181,7 +181,7 @@ footer{
 /* Home/about page */
 
 .studio_container{
-    background-image: url('/assets/images/studio.jpg');
+    background-image: url(../assets/images/studio.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -237,7 +237,7 @@ form{
 
 .main_form{
     height: 700px;
-    background-image: url(/assets/images/contact_background.jpg);
+    background-image: url(../assets/images/contact_background.jpg);
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: cover;
@@ -278,7 +278,7 @@ hr{
 
 #submitted_form{
     height: 500px;
-    background-image: url(/assets/images/contact_background.jpg);
+    background-image: url(../assets/images/contact_background.jpg);
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: cover;
@@ -316,7 +316,7 @@ hr{
 /* Styling for Lesson and Prices grid section */
 
 #lesson_container{
-    background-image: url(/assets/images/lessons_sheetmusic.jpg);
+    background-image: url(../assets/images/lessons_sheetmusic.jpg);
     background-position: center;
     background-size: cover;
     margin: 150px 10% 150px 10%;
@@ -492,25 +492,25 @@ hr{
 
 
 .drum_pic{
-    background-image: url(/assets/images/Drums.jpg);
+    background-image: url(../assets/images/Drums.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .bass_pic{
-    background-image: url(/assets/images/bass.jpg);
+    background-image: url(../assets/images/bass.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .guitar_pic{
-    background-image: url(/assets/images/guitar.jpg);
+    background-image: url(../assets/images/guitar.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .keys_pic{
-    background-image: url(/assets/images/keys.jpg);
+    background-image: url(../assets/images/keys.jpg);
     background-position: center;
     background-size: cover;
 }
