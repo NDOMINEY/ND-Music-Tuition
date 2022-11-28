@@ -260,6 +260,10 @@ footer{
     border-radius: 5px;
 }
 
+.about_content a{
+    color: #1c1b18;
+}
+
 
 /*Contact form section*/
 
