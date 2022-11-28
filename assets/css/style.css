@@ -269,11 +269,16 @@ form{
     padding: 50px 10% 150px 10%;
 }
 
+#main_contact_us{
+    text-align: center;
+}
+
 .main_form, .main_form > legend{
     text-align: center;
     padding: 5px;
     border: #002851 2px solid;
     border-radius: 5px;
+    text-align: left;
 }
 
 
@@ -292,6 +297,18 @@ legend{
 
 hr{
     margin-bottom: 10px;
+}
+
+#choices{
+    box-sizing: border-box;
+    width: 20%;
+    display: inline-block;
+}
+
+#drop_down{
+    box-sizing: border-box;
+    width: 50%;
+    display: inline-block;
 }
 
 .form_section input{
@@ -493,13 +510,55 @@ hr{
 
 @media only screen and (max-width: 930px) {
     .main_form{
-        height: 1700px;
+        height: 1600px;
         display: grid;
         grid-template-columns:repeat(1, 1fr);
         grid-template-rows: repeat(3,325px);
     
         text-align: left;
         padding-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .main_form{
+        height: 1600px;
+        display: grid;
+        grid-template-columns:repeat(1, 1fr);
+        grid-template-rows: repeat(3,325px);
+    
+        text-align: left;
+        padding-bottom: 0;
+    }
+
+    #drop_down{
+        box-sizing: border-box;
+        width: 30%;
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .main_form{
+        height: 1600px;
+        display: grid;
+        grid-template-columns:repeat(1, 1fr);
+        grid-template-rows: repeat(3,380px);
+    
+        text-align: left;
+        padding-bottom: 0;
+    }
+
+    #drop_down{
+        box-sizing: border-box;
+        width: 50%;
+        display: inline-block;
+    }
+    
+    #choices{
+        box-sizing: border-box;
+        width: 30%%;
+        display: inline-block;
     }
 }
 

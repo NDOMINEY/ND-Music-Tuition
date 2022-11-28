@@ -53,19 +53,19 @@
 
     <form action="form_submission.html">
         <fieldset class="main_form">
-            <legend>Contact us</legend>
+            <legend id="main_contact_us">Contact us</legend>
 
             <div class="form_section">
 
                 <h2>About You</h2>
                 <hr>
 
-                <label for="name">Name:</label>
-                <input type="text" id="name" placeholder="First name" name="fname" required><br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" placeholder="Email Address" name="email" required><br>
-                <label for="phone">Phone:</label>
-                <input type="tel" id="phone" placeholder="Phone number" name="phone" pattern="[0]{1}[0-9]{10}" required><br>
+                <label id="choices" for="name">Name:</label>
+                <input class="form_fields" type="text" id="name" placeholder="First name" name="fname" required><br>
+                <label id="choices" for="email">Email:</label>
+                <input class="form_fields" type="email" id="email" placeholder="Email Address" name="email" required><br>
+                <label id="choices" for="phone">Phone:</label>
+                <input class="form_fields" type="tel" id="phone" placeholder="Phone number" name="phone" required><br>
 
                 <P>Please select your age range below:</P>
                 
@@ -89,51 +89,50 @@
 
                     <legend>Instrument(s)</legend>
 
-                    <label for="drums">Drums</label>
-                    <input type="checkbox" id="drums" name="Instrument" value="Drums" required>
-                    <label for="bass">Bass</label>
-                    <input type="checkbox" id="bass" name="Instrument" value="Bass" required>
-                    <label for="guitar">Guitar</label>
-                    <input type="checkbox" id="guitar" name="Instrument" value="Guitar" required>
-                    <label for="keys">Piano/Keys</label>
-                    <input type="checkbox" id="keys" name="Instrument" value="Keys" required>
+                    <input type="checkbox" id="drums" name="Instrument" value="Drums">
+                    <label id="choices" for="drums">Drums</label>
+                    <input type="checkbox" id="bass" name="Instrument" value="Bass">
+                    <label id="choices" for="bass">Bass</label>
+                    <br>
+                    <input type="checkbox" id="guitar" name="Instrument" value="Guitar">
+                    <label id="choices" for="guitar">Guitar</label>
+                    <input type="checkbox" id="keys" name="Instrument" value="Keys">
+                    <label id="choices" for="keys">Keys</label>
 
                 </fieldset>
 
-                <fieldset>
+                <br>
 
-                    <legend>Lesson Method</legend>
+                    <label id="drop_down" for="lesson_method">Please select:</label>
+                    <select name="lesson_method" id="lesson_method">
+                        <option value="remote">Please select</option>
+                        <option value="remote">Remote</option>
+                        <option value="in_person">In Person</option>
+                    </select>
 
-                    <label for="person">In Person</label>
-                    <input type="radio" id="person" name="lesson_type" value="In_Person" required>
-                    <label for="remote">Remote</label>
-                    <input type="radio" id="remote" name="lesson_type" value="Remote" required>
+                    <br>
+                    <br>
 
-                </fieldset>
+                    <label id="drop_down" for="frequency">frequency:</label>
+                    <select name="frequency" id="frequency">
+                        <option value="remote">Please select</option>
+                        <option value="weekly">Weekly</option>
+                        <option value="fortnightly">Fortnightly</option>
+                        <option value="unsure">Unsure</option>
+                    </select>
 
-                <fieldset>
+                    <br>
+                    <br>
 
-                    <legend>Frequency</legend>
+                    <label id="drop_down" for="time">Time Slot:</label>
+                    <select name="time" id="time">
+                        <option value="remote">Please select</option>
+                        <option value="evening">Evening</option>
+                        <option value="weekend">Weekend</option>
+                    </select>
 
-                    <label for="weekly">Weekly</label>
-                    <input type="radio" id="weekly" name="frequency" value="weekly" required>
-                    <label for="2weekly">Fortnightly</label>
-                    <input type="radio" id="2weekly" name="frequency" value="2weekly" required>
-                    <label for="unsure">Unsure</label>
-                    <input type="radio" id="unre" name="frequency" value="unsure" required>
-
-                </fieldset>
-
-                <fieldset>
-
-                    <legend>Booking Preference</legend>
-
-                    <label for="evening">Evening</label>
-                    <input type="radio" id="30min" name="booking" value="evening" required>
-                    <label for="weekend">Weekend</label>
-                    <input type="radio" id="weekend" name="booking" value="weekend" required>
-
-                </fieldset>
+                    <br>
+                    <br>
 
             </div>
 
@@ -142,7 +141,7 @@
                 <h2>Comments</h2>
                 <hr>
 
-                <textarea placeholder="Comments..." name="comment" rows="12" cols="40"></textarea><br>
+                <textarea placeholder="Comments..." name="comment" rows="12" cols="25"></textarea><br>
                 
                 <input type="submit"> 
 
