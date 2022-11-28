@@ -26,11 +26,11 @@ font-family: 'Nunito', sans-serif;
 }
 
 #submitted_form{
-    height: 500px;
     background-image: url(../images/contact_background.webp);
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: cover;
+    height: 400px;
 }
 
 .main_form{
