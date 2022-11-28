@@ -195,20 +195,6 @@ header{
     visibility: visible;
 }
 
-@media only screen and (max-width: 804px) {
-    #hamburger-menu{
-        visibility: visible;
-    }
-
-    #nav{
-        visibility: hidden;
-    }
-
-    .title{
-        font-size: 25px;
-    }
-}
-
 
 /* Footer */
 
@@ -325,31 +311,6 @@ hr{
     background-color: #5E8FC2;
 }
 
-/* Media queries for grid columns on contact us form */
-
-@media only screen and (max-width: 1250px) {
-    .main_form{
-        height: 1100px;
-        display: grid;
-        grid-template-columns:repeat(2, 1fr);
-        grid-template-rows: 300px;
-    
-        text-align: left;
-    }
-}
-
-@media only screen and (max-width: 930px) {
-    .main_form{
-        height: 1700px;
-        display: grid;
-        grid-template-columns:repeat(1, 1fr);
-        grid-template-rows: repeat(3,325px);
-    
-        text-align: left;
-        padding-bottom: 0;
-    }
-}
-
 /* Styling for Lesson and Prices grid section */
 
 
@@ -392,34 +353,7 @@ hr{
     
 }
 
-@media only screen and (max-width: 850px) {
-    .lessons{
-        display: grid;
-        grid-template-columns:repeat(1, 1fr);
-        grid-template-rows: repeat(4, 0.75fr, 1fr, 1fr, 1fr);
-        row-gap: 25px;
-    }
 
-    #lesson_header{
-        grid-area: 1 / 1 / span 1 / span 1;
-        text-align: center;
-        border: none;
-        background-color: transparent;
-        grid-row: 150px;
-    }
-
-    #price_header{
-        grid-area: 5 / 1 / span 1 / span 1;
-        text-align: center;
-        border: none;
-        background-color: transparent;
-        grid-row: 150px;
-    }
-
-    .media{
-        grid-template-columns: 1,1fr;
-    }
-}
 
 /* Instruments Page tab styling */
 
@@ -430,6 +364,13 @@ hr{
 .tab{
     float: left;
 }
+
+@media only screen and (max-width: 347px) {
+    .tab label{
+        padding: 2px;
+    }
+}
+
 
 .tab label{
     position: relative;
@@ -520,9 +461,6 @@ hr{
 	top:1px;
 }
 
-
-
-
 .media{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -540,10 +478,114 @@ hr{
     visibility: visible;
 }
 
+/* Media queries for grid columns on contact us form */
+
+@media only screen and (max-width: 1250px) {
+    .main_form{
+        height: 1100px;
+        display: grid;
+        grid-template-columns:repeat(2, 1fr);
+        grid-template-rows: 300px;
+    
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .main_form{
+        height: 1700px;
+        display: grid;
+        grid-template-columns:repeat(1, 1fr);
+        grid-template-rows: repeat(3,325px);
+    
+        text-align: left;
+        padding-bottom: 0;
+    }
+}
+
+/* Media query from lessons page */
+
+@media only screen and (max-width: 850px) {
+    .lessons{
+        display: grid;
+        grid-template-columns:repeat(1, 1fr);
+        grid-template-rows: repeat(4, 0.75fr, 1fr, 1fr, 1fr);
+        row-gap: 25px;
+    }
+
+    #lesson_header{
+        grid-area: 1 / 1 / span 1 / span 1;
+        text-align: center;
+        border: none;
+        background-color: transparent;
+        grid-row: 150px;
+    }
+
+    #price_header{
+        grid-area: 5 / 1 / span 1 / span 1;
+        text-align: center;
+        border: none;
+        background-color: transparent;
+        grid-row: 150px;
+    }
+
+    .media{
+        grid-template-columns: 1,1fr;
+    }
+}
+
+/* Hamburger media query*/
+
+@media only screen and (max-width: 804px) {
+    #hamburger-menu{
+        visibility: visible;
+    }
+
+    #nav{
+        visibility: hidden;
+    }
+
+    .title{
+        font-size: 25px;
+    }
+}
+
+/* Media query for instruments tabs*/
+
 @media only screen and (max-width: 850px) {
     .media{
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, 1fr);
         row-gap: 10px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .media{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        row-gap: 10px;
+    }
+}
+
+@media only screen and (max-width: 347px) {
+    #instrument_tab{
+        padding: 2px;
+    }
+
+    .title{
+        font-size: 20px;
+    }
+
+    .shop_container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(2, 2fr);
+        column-gap: 0;
+        text-align: center;
+        padding: 25px;
+        text-decoration: none;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
