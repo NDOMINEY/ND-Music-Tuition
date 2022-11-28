@@ -11,11 +11,73 @@ font-family: 'Nunito', sans-serif;
     font-family: 'Nunito', sans-serif;
 }
 
-.background_img{
-    background-image: url(../images/background.jpg);
+.studio_container{
+    background-image: url(../images/studio.webp);
     background-position: center;
     background-size: cover;
     height: 100vh;
+}
+
+.background_img{
+    background-image: url(../images/background.webp);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#submitted_form{
+    height: 500px;
+    background-image: url(../images/contact_background.webp);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+
+.main_form{
+    height: 700px;
+    background-image: url(../images/contact_background.webp);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+
+    /* creating grid section */
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+
+    text-align: left;
+}
+
+#lesson_container{
+    background-image: url(../images/lessons_sheetmusic.webp);
+    background-position: center;
+    background-size: cover;
+    margin: 150px 10% 150px 10%;
+    border:#002851 2px solid;
+    border-radius: 5px;
+}
+
+.drum_pic{
+    background-image: url(../images/Drums.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.bass_pic{
+    background-image: url(../images/bass.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.guitar_pic{
+    background-image: url(../images/guitar.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.keys_pic{
+    background-image: url(../images/keys.webp);
+    background-position: center;
+    background-size: cover;
 }
 
 .background_colour{
@@ -180,13 +242,6 @@ footer{
 
 /* Home/about page */
 
-.studio_container{
-    background-image: url(../images/studio.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-}
-
 .about h2{
     position: absolute;
     width: 100%;
@@ -235,19 +290,7 @@ form{
     border-radius: 5px;
 }
 
-.main_form{
-    height: 700px;
-    background-image: url(../images/contact_background.jpg);
-    background-repeat: no-repeat;
-    background-position: bottom center;
-    background-size: cover;
 
-    /* creating grid section */
-    display: grid;
-    grid-template-columns:repeat(3, 1fr);
-
-    text-align: left;
-}
 
 .main_form > legend{
     background-color: #5E8FC2;
@@ -276,13 +319,7 @@ hr{
     border-radius: 5px;
 }
 
-#submitted_form{
-    height: 500px;
-    background-image: url(../images/contact_background.jpg);
-    background-repeat: no-repeat;
-    background-position: bottom center;
-    background-size: cover;
-}
+
 
 #submitted_form > legend{
     background-color: #5E8FC2;
@@ -315,14 +352,7 @@ hr{
 
 /* Styling for Lesson and Prices grid section */
 
-#lesson_container{
-    background-image: url(../images/lessons_sheetmusic.jpg);
-    background-position: center;
-    background-size: cover;
-    margin: 150px 10% 150px 10%;
-    border:#002851 2px solid;
-    border-radius: 5px;
-}
+
 
 .lessons{
     display: grid;
@@ -491,29 +521,7 @@ hr{
 }
 
 
-.drum_pic{
-    background-image: url(../images/Drums.jpg);
-    background-position: center;
-    background-size: cover;
-}
 
-.bass_pic{
-    background-image: url(../images/bass.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.guitar_pic{
-    background-image: url(../images/guitar.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.keys_pic{
-    background-image: url(../images/keys.jpg);
-    background-position: center;
-    background-size: cover;
-}
 
 .media{
     display: grid;
