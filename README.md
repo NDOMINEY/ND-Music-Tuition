@@ -7,13 +7,14 @@ The intent of the  website is to inform the visitor of who ND Music Tuition is a
 ![Responsive Mockup](Documentation/ND_Tuition_Mock_Up.png)
 
 ## Tabel of Contents
-+ [Features](#features "Features")
-  + [Existing Features](#existing-features "Existing Features")
 + [Design](#design "Design")
+  + [Wireframes](#wireframes "Wireframes")
   + [Colour Scheme](#colour-scheme "Colour Scheme")
   + [Typography](#typography "Typography")
   + [Imagery](#imagery "Imagery")
   + [Media](#media "Media")
++ [Features](#features "Features")
+  + [Existing Features](#existing-features "Existing Features")
 + [Testing](#testing "Testing")
   + [Functional Testing](#functional-testing "Functional Testing")
   + [Usability Testing](#usability-testing "Usability Testing")
@@ -25,6 +26,31 @@ The intent of the  website is to inform the visitor of who ND Music Tuition is a
 + [Credits](#credits "Credits")
   + [Content](#content "Content")
   + [Media](#media "Media")
+
+## Design
+
+### Wireframes:
+- Please find link to [Full Screen Wireframe](Documentation/Fullscreen_wireframe.pdf)
+- Please find link to [Mobile Screen Wireframe](Documentation/Mobile_wireframe.pdf)
+
+### Colour Scheme:
+- A modern colour scheme was chosen, with an accent colour to enable elements to be highlighted. 
+- The colour scheme was generated from https://mycolor.space/
+
+![Colour Scheme](Documentation/Colour.png)
+
+### Typography:
+- Michroma was used as the font for the company logo, and Nunito was used as the main font for the rest of the text on the website.
+- These fonts where paired using https://fontjoy.com/ and sourced from https://fonts.google.com/
+
+![Font Pairing](Documentation/Fonts.png)
+
+### Imagery:
+- All images through out the website were sourced from https://www.pexels.com/ - an open source image site.
+
+### Media:
+- All songs are embedded content used from https://open.spotify.com/ 
+- All videos are embedded content used from https://www.youtube.com/
 
 ## Features
 
@@ -72,26 +98,6 @@ The intent of the  website is to inform the visitor of who ND Music Tuition is a
 - Add further links to lead the user to advance the user path, for instance a link to the 'Contact Us' section in the lessons and prices to prompt the user.
 - Obtain testimonials to showcase services offered.
 
-## Design
-
-### Colour Scheme:
-- A modern colour scheme was chosen, with an accent colour to enable elements to be highlighted. 
-- The colour scheme was generated from https://mycolor.space/
-
-![Colour Scheme](Documentation/Colour.png)
-
-### Typography:
-- Michroma was used as the font for the company logo, and Nunito was used as the main font for the rest of the text on the website.
-- These fonts where paired using https://fontjoy.com/ and sourced from https://fonts.google.com/
-
-![Font Pairing](Documentation/Fonts.png)
-
-### Imagery:
-- All images through out the website were sourced from https://www.pexels.com/ - an open source image site.
-
-### Media:
-- All songs are embedded content used from https://open.spotify.com/ 
-- All videos are embedded content used from https://www.youtube.com/
 
 
 ## Testing
@@ -153,5 +159,12 @@ This site is deployed through GitHub Pages. The following steps where followed -
 ## Credits
 
 ### Content
+- Hamburger menu creating created through the guidance of the following how to article. [Alvarotrigo Blog](https://alvarotrigo.com/blog/hamburger-menu-css-responsive/)
+- Inspiration taken for Instruments content tabs from [css-tricks.com](https://css-tricks.com/functional-css-tabs-revisited/)
+- Social media icons sourced from [Font Awesome](https://fontawesome.com/)
+- Fonts sourced from [Google Fonts](https://fonts.google.com/)
 
 ### Media
+- Images sourced from [Pexels](https://www.pexels.com/)
+- Music sourced from [Spotify](https://open.spotify.com/)
+- Videos sourced from [Youtube](https://www.youtube.com/)
