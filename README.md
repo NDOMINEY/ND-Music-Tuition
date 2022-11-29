@@ -131,6 +131,9 @@ As a result of the adjustments, the performance on the 'Instruments' page increa
   - 1 error shown when passing through the offical [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fndominey.github.io%2FND-Music-Tuition%2F)
    - Nav nested with in Label error due to Hamburger Menu
 
+- CSS
+  - No errors found when tested through official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fndominey.github.io%2FND-Music-Tuition&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
 ### Unfixed Bugs
 
 ## Technologies Used
