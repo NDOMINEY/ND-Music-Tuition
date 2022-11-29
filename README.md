@@ -35,22 +35,22 @@ The intent of the  website is to inform the visitor of who ND Music Tuition is a
 
 ### Colour Scheme:
 - A modern colour scheme was chosen, with an accent colour to enable elements to be highlighted. 
-- The colour scheme was generated from https://mycolor.space/
+- The colour scheme was generated from [mycolor](https://mycolor.space/)
 
 ![Colour Scheme](Documentation/Colour.png)
 
 ### Typography:
 - Michroma was used as the font for the company logo, and Nunito was used as the main font for the rest of the text on the website.
-- These fonts where paired using https://fontjoy.com/ and sourced from https://fonts.google.com/
+- These fonts where paired using [Font Joy](https://fontjoy.com/) and sourced from [Google Fonts](https://fonts.google.com/)
 
 ![Font Pairing](Documentation/Fonts.png)
 
 ### Imagery:
-- All images through out the website were sourced from https://www.pexels.com/ - an open source image site.
+- All images through out the website were sourced from [Pexels](https://www.pexels.com/) - an open source image site.
 
 ### Media:
-- All songs are embedded content used from https://open.spotify.com/ 
-- All videos are embedded content used from https://www.youtube.com/
+- All songs are embedded content used from [Spotify](https://open.spotify.com/)
+- All videos are embedded content used from [Youtube](https://www.youtube.com/)
 
 ## Features
 
