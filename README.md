@@ -4,7 +4,7 @@ ND Music Tuition is a provider of private music lessons for Drums, Bass, Guitar,
 
 The intent of the  website is to inform the visitor of who ND Music Tuition is and the services they offer. Also to direct them to further information to explore different instruments and how to get started.
 
-*Put link to website here when live*
+![Responsive Mockup](documentation/ND_Tuition_Mock_Up.png)
 
 ## Tabel of Contents
 + [UX](#ux "UX")
