@@ -7,56 +7,75 @@ The intent of the  website is to inform the visitor of who ND Music Tuition is a
 ![Responsive Mockup](Documentation/ND_Tuition_Mock_Up.png)
 
 ## Tabel of Contents
-+ [UX](#ux "UX")
-  + [Site Purpose](#site-purpose "Site Purpose")
-  + [Site Goal](#site-goal "Site Goal")
-  + [Audience](#audience "Audience")
-  + [Communication](#communication "Communication")
-  + [Current User Goals](#current-user-goals "Current User Goals")
-  + [New User Goals](#new-user-goals "New User Goals")
++ [Features](#features "Features")
+  + [Existing Features](#existing-features "Existing Features")
 + [Design](#design "Design")
   + [Colour Scheme](#colour-scheme "Colour Scheme")
   + [Typography](#typography "Typography")
   + [Imagery](#imagery "Imagery")
-+ [Features](#features "Features")
-  + [Existing Features](#existing-features "Existing Features")
 + [Testing](#testing "Testing")
   + [Validator Testing](#validator-testing "Validator Testing")
   + [Unfixed Bugs](#unfixed-bugs "Unfixed Bugs")
 + [Technologies Used](#technologies-used "Technologies Used")
   + [Main Languages Used](#main-languages-used "Main Languages Used")
-  + [Frameworks, Libraries & Programs Used](#frameworks-libraries-programs-used "Frameworks, Libraries & Programs Used")
 + [Deployment](#deployment "Deployment")
 + [Credits](#credits "Credits")
   + [Content](#content "Content")
   + [Media](#media "Media")
 
-## UX
+## Features
 
-### Site Purpose:
-To inform site visitors of services offered by ND Music Tuition and a source for basic information on getting started with a new instrument.
+### Existing Features
+#### Navigation bar:
+- The navigation bar is present at the top of each page and is fixed there for easy navigation accross all pages. This is to allow the user explore the site by clicking directly to the section that interests them with out have to follow a direct user path.
 
-### Site Goal:
-To enable people who wish to pursue music tuition a means to explore options and start personal tuition.
+![Full Screen Nav Bar Image](Documentation/Full_screen_nav_bar.png)
 
-### Audience:
-Anyone with an interest in learning a musical instrument. The main target audience is men and women from ages 5 and above.
+- There is a hamburger nav bar for smaller screen sizes to maximise screen space for page content.
 
-### Communication:
-*detail how the website will present its data*
+![Hamburger Menu - Default](Documentation/Hamburger_menu_1.png)
 
-### Current User Goals:
-- *insert goals*
+#### Landing Page:
+- The landing page features a full background image of a music studio to relay a clear website purpose to the user.
+- The purpose of this page is to clearly welcome the user and briefly explain the services offer and the extent of the experience of the service provider.
 
-### New User Goals:
-- *insert goals*
+![Welcome section of landing page](Documentation/Landing_page.png)
+
+#### Instruments Page:
+- The section provides information about the different instrument options that are available for lessons.
+- The details are designed to inspire a prospective student and direct them to resources so they can start looking into options to start their journey.
+- This section is represented as a resource section with tabs at the top to flip between instruments.
+
+![Instrument information](Documentation/Instruments.png)
+
+#### Lessons & Pricing Page:
+- To present simple stucture of lesson options to perspective students.
+
+![Lesson information](Documentation/Lessons.png)
+
+#### Contact Page:
+- Provide an easy to use contact form which can then be used to gather basic information about the enquiry.
+- Only the 'About You' Section of the form is mandatory to allow for easy completion incase the user does not wish to complete full form.
+
+![Contact form](Documentation/Contact_form.png)
+
+#### Social Links:
+- At the bottom of every page is a fixed footer with links to main social media pages for the user to explore.
+
+![Media Links in Footer](Documentation/Footer.png)
+
+### Future Features:
+- Add further information in the 'About Us' section to include more about the learning studio and technologies used to provide effective online tuition.
+- Add further links to lead the user to advance the user path, for instance a link to the 'Contact Us' section in the lessons and prices to prompt the user.
+- Obtain testimonials to showcase services offered.
 
 ## Design
 
 ### Colour Scheme:
-*Description of colour scheme choices*
+- A modern colour scheme was chosen, with an accent colour to enable elements to be highlighted. 
+- The colour scheme was generated from https://mycolor.space/
 
-![Colour Palette]*Insert Colour scheme*
+![Colour Scheme](Documentation/Colour.png)
 
 ### Typography:
 *Description of font choices*
@@ -64,32 +83,6 @@ Anyone with an interest in learning a musical instrument. The main target audien
 ### Imagery:
 *Description of image sources*
 
-## Features
-
-### Existing Features
-#### Navigation bar:
-*Details and supporting picture*
-
-#### Landing Page:
-*Details and supporting picture*
-
-#### Instruments Page:
-*Details and supporting picture*
-
-#### Lessons & Pricing Page:
-*Details and supporting picture*
-
-#### Contact Page:
-*Details and supporting picture*
-
-#### Social Links:
-*Details and supporting picture*
-
-#### Footer comments:
-*Details and supporting picture*
-
-### Future Features:
-- *list future features to expand/improve the site*
 
 ## Testing
 
@@ -104,9 +97,6 @@ Anyone with an interest in learning a musical instrument. The main target audien
 ### Main Languages Used
 - HTML5
 - CSS3
-
-### Frameworks, Libraries & Programs Used
-- *Provide details*
 
 ## Deployment
 - *Provide details*
