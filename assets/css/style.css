@@ -462,12 +462,12 @@ hr{
     overflow: auto;
 }
 
-#scroll{
+.scroll{
     width: 100%;
     text-align: center;
 }
 
-#scroll span{
+.scroll span{
     background-color: #002851;
     color: #E6F4F1;
     padding: 5px;
@@ -485,7 +485,7 @@ hr{
     color: #002851;
 }
 
-#retailers{
+.retailers{
     text-align: center;
 }
 
@@ -527,7 +527,12 @@ hr{
     grid-template-columns: repeat(2,1fr);
     column-gap: 10px;
     margin-top: 25px;
+    text-align: center;
+}
 
+.media_frame{
+    width: 100%;
+    border: none;
 }
 
 .tab [type=radio]:checked ~ label {
@@ -658,7 +663,7 @@ hr{
 }
 
 @media only screen and (max-width: 347px) {
-    #instrument_tab{
+    .instrument_tab{
         padding: 2px;
     }
 
