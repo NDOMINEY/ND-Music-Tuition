@@ -127,7 +127,9 @@ As a result of the adjustments, the performance on the 'Instruments' page increa
 ![Lighthouse - Instruments Page pre-fix](Documentation/Lighthouse_postfix_instruments.png)
 
 ### Validator Testing
-*Details and supporting picture*
+- HTML
+  - 1 error shown when passing through the offical [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fndominey.github.io%2FND-Music-Tuition%2F)
+   - Nav nested with in Label error due to Hamburger Menu
 
 ### Unfixed Bugs
 
