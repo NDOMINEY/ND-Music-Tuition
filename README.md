@@ -56,7 +56,7 @@ The intent of the  website is to inform the visitor of who ND Music Tuition is a
 
 ### Existing Features
 #### Navigation bar:
-- The navigation bar is present at the top of each page and is fixed there for easy navigation accross all pages. This is to allow the user explore the site by clicking directly to the section that interests them with out have to follow a direct user path.
+- The navigation bar is present at the top of each page and is fixed there for easy navigation accross all pages. This is to allow the user explore the site by clicking directly to the section that interests them without having to follow a direct user path.
 
 ![Full Screen Nav Bar Image](Documentation/Full_screen_nav_bar.png)
 
@@ -66,12 +66,12 @@ The intent of the  website is to inform the visitor of who ND Music Tuition is a
 
 #### Landing Page:
 - The landing page features a full background image of a music studio to relay a clear website purpose to the user.
-- The purpose of this page is to clearly welcome the user and briefly explain the services offer and the extent of the experience of the service provider.
+- The purpose of this page is to clearly welcome the user and briefly explain the services offered and the extent of the experience of the service provider.
 
 ![Welcome section of landing page](Documentation/Landing_page.png)
 
 #### Instruments Page:
-- The section provides information about the different instrument options that are available for lessons.
+- This section provides information about the different instrument options that are available for lessons.
 - The details are designed to inspire a prospective student and direct them to resources so they can start looking into options to start their journey.
 - This section is represented as a resource section with tabs at the top to flip between instruments.
 
@@ -95,22 +95,20 @@ The intent of the  website is to inform the visitor of who ND Music Tuition is a
 
 ### Future Features:
 - Add further information in the 'About Us' section to include more about the learning studio and technologies used to provide effective online tuition.
-- Add further links to lead the user to advance the user path, for instance a link to the 'Contact Us' section in the lessons and prices to prompt the user.
+- Add further links to lead the user to advance the journey path, for instance a link to the 'Contact Us' section in the lessons and prices to prompt the user to pursue booking service.
 - Obtain testimonials to showcase services offered.
-
-
 
 ## Testing
 
 Throughout the project, when new features were added these were tested in a local server. In doing this any issues where highlighted whilst in the development process to allow for easy adjustments to be made in realtime. Also, checking other pages when implementing changes to address whether indirect changes have occured due to styling on new feature. 
 
-An example of this is when styling the anchor elements on the Instruments section, inadvertently the anchor elements in the navigation were changed as well. As a result, high specificity was used in the CSS styling to overcome this issue. 
+An example of this is when styling the anchor elements on the Instruments section, inadvertently the anchor elements in the navigation were changed as well. As a result, higher specificity was used in the CSS styling to overcome this issue. 
 
 ### Functional Testing
-- The website was deployed through github pages but this presented an issue where only the index page was accessible and background images did not load. When a link was clicked to open another site error code 404 appears.  
-Upon investigation, the href and URL links used in the initial build were in the following format **URL(/instruments**.html).  
-Although this did not present any issues when viewing on a local server, it did not work when deployed. All links where then changed to this format **URL(instruments.html)** - removing the forward slash at the from of the file path.
-- All external links checked to make sure target=_blank was initiated to ensure when user was directed away from the website that the open website stayed in place to encourage the user to return.
+- The website was deployed through github pages but this presented an issue where only the index page was accessible and background images did not load. When a link was clicked to open another page a error code 404 appears.  
+Upon investigation, the href and URL links used in the initial build were in the following format **URL(/instruments.html)**.  
+Although this did not present any issues when viewing on a local server, it did not work when deployed. All links where then changed to the format **URL(instruments.html)** - removing the forward slash at the front of the file path.
+- All external links checked to make sure target=_blank was initiated to ensure when user was directed away from the website so that the open website stayed in place to encourage the user to return.
 - All internal links in navigation checked, and anchor elements within page have desired outcome.
 - All embedded media can be called upon efficiently and can be interacted with.
 - Form element in 'Contact Us' section checked.
@@ -120,10 +118,10 @@ Although this did not present any issues when viewing on a local server, it did 
 ### Usability Testing
 - Main navigation for full screen viewing consistent in display and location across all pages. All links work as expected, including the site name logo linking to the home page on each page.
 - Hammer Burger menu for smaller screen sized works appropriately accross all pages. However, if the user does not follow the expected completion path of clicking a link to a new page there is no obvious way to revert the hamburger menu back to it's original state.
-- Checked that all Media items and links hold alternatives to aid accessibility.
+- Checked that all Media items and links hold alternatives to for accessibility.
 - Website checked on multiple browsers including chrome, firefox and safari.
-- Lighthouse run on each webpage to check for performace, accessibility, best practice and SEO. On initial tests it was found that perforance was low mainly due to large jpeg image files. To help resolve this issue, all images were converted to webp files and over size compressed.  
-To further increase loading times on the 'Instruments' page which utilises the use of embedded media, lazy loading was added so that the data was only loaded when actually viewed.  
+- Lighthouse run on each page to check for performace, accessibility, best practice and SEO. On initial tests it was found that perforance was low mainly due to large jpeg image files. To help resolve this issue, all images were converted to webp files and size compressed.  
+To further increase loading times on the 'Instruments' page which uses embedded media, lazy loading was added so that the data was only loaded when actually viewed.  
 As a result of the adjustments, the performance on the 'Instruments' page increased from 65% to 85%. Please see details below of lighthouse results.
 
 #### Lighthouse - Instruments Pre-fix
