@@ -153,7 +153,7 @@ This site is deployed through GitHub Pages. The following steps where followed -
 ## Credits
 
 ### Content
-- Hamburger menu creating created through the guidance of the following how to article. [Alvarotrigo Blog](https://alvarotrigo.com/blog/hamburger-menu-css-responsive/)
+- Hamburger menu creating created through the guidance of the following how to article. [Alvarotrigo Blog](https://alvarotrigo.com/blog/hamburger-menu-css/#:~:text=A%20Hamburger%20Menu%20is%20a,top%20of%20the%20main%20content)
 - Inspiration taken for Instruments content tabs from [css-tricks.com](https://css-tricks.com/functional-css-tabs-revisited/)
 - Social media icons sourced from [Font Awesome](https://fontawesome.com/)
 - Fonts sourced from [Google Fonts](https://fonts.google.com/)
