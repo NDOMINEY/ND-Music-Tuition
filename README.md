@@ -135,6 +135,8 @@ As a result of the adjustments, the performance on the 'Instruments' page increa
   - No errors found when tested through official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fndominey.github.io%2FND-Music-Tuition&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Unfixed Bugs
+- Hamburger Menu HTML coding causes html validation fail but presents no issue on deployed website. This needs to be addressed and Hamburger Menu created in a different method to remove error.
+- Hamburger Menu sometimes flashed when full screen page is loaded.
 
 ## Technologies Used
 ### Main Languages Used
@@ -142,7 +144,11 @@ As a result of the adjustments, the performance on the 'Instruments' page increa
 - CSS3
 
 ## Deployment
-- *Provide details*
+This site is deployed through GitHub Pages. The following steps where followed -
+- Within the repository, go to settings
+- Under settings select pages section
+- Select source 'Deploy from a branch'
+- Underneath source, select main branch and root folder and save to deploy
 
 ## Credits
 
