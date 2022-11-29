@@ -349,7 +349,6 @@ hr{
     text-align: center;
     border: none;
     background-color: transparent;
-    grid-row: 150px;
 }
 
 #price_header{
@@ -357,7 +356,6 @@ hr{
     text-align: center;
     border: none;
     background-color: transparent;
-    grid-row: 150px;
 }
 
 .lessonh2{
@@ -581,7 +579,6 @@ hr{
         text-align: center;
         border: none;
         background-color: transparent;
-        grid-row: 150px;
     }
 
     #price_header{
@@ -589,11 +586,10 @@ hr{
         text-align: center;
         border: none;
         background-color: transparent;
-        grid-row: 150px;
     }
 
     .media{
-        grid-template-columns: 1,1fr;
+        grid-template-columns: repeat(1,1fr);
     }
 }
 
