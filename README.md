@@ -13,6 +13,7 @@ The intent of the  website is to inform the visitor of who ND Music Tuition is a
   + [Colour Scheme](#colour-scheme "Colour Scheme")
   + [Typography](#typography "Typography")
   + [Imagery](#imagery "Imagery")
+  + [Media](#media "Media")
 + [Testing](#testing "Testing")
   + [Validator Testing](#validator-testing "Validator Testing")
   + [Unfixed Bugs](#unfixed-bugs "Unfixed Bugs")
@@ -78,10 +79,17 @@ The intent of the  website is to inform the visitor of who ND Music Tuition is a
 ![Colour Scheme](Documentation/Colour.png)
 
 ### Typography:
-*Description of font choices*
+- Michroma was used as the font for the company logo, and Nunito was used as the main font for the rest of the text on the website.
+- These fonts where paired using https://fontjoy.com/ and sourced from https://fonts.google.com/
+
+![Font Pairing](Documentation/Fonts.png)
 
 ### Imagery:
-*Description of image sources*
+- All images through out the website were sourced from https://www.pexels.com/ - an open source image site.
+
+### Media:
+- All songs are embedded content used from https://open.spotify.com/ 
+- All videos are embedded content used from https://www.youtube.com/
 
 
 ## Testing
