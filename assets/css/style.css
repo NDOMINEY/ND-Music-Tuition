@@ -345,13 +345,13 @@ hr{
     margin-bottom: 10px;
 }
 
-#choices{
+.choices{
     box-sizing: border-box;
     width: 20%;
     display: inline-block;
 }
 
-#drop_down{
+.drop_down{
     box-sizing: border-box;
     width: 50%;
     display: inline-block;
@@ -580,7 +580,7 @@ hr{
         padding-bottom: 0;
     }
 
-    #drop_down{
+    .drop_down{
         box-sizing: border-box;
         width: 30%;
         display: inline-block;
@@ -598,13 +598,13 @@ hr{
         padding-bottom: 0;
     }
 
-    #drop_down{
+    .drop_down{
         box-sizing: border-box;
         width: 50%;
         display: inline-block;
     }
     
-    #choices{
+    .choices{
         box-sizing: border-box;
         width: 30%;
         display: inline-block;
