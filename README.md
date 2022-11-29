@@ -141,6 +141,7 @@ As a result of the adjustments, the performance on the 'Instruments' page increa
 ### Unfixed Bugs
 - Hamburger Menu HTML coding causes html validation fail but presents no issue on deployed website. This needs to be addressed and Hamburger Menu created in a different method to remove error.
 - Hamburger Menu sometimes flashed when full screen page is loaded.
+- Hamburger Menu - add way to close menu without having to follow link to new page
 
 ## Technologies Used
 ### Main Languages Used
