@@ -62,8 +62,6 @@ The intent of the  website is to inform the visitor of who ND Music Tuition is a
 
 - There is a hamburger nav bar for smaller screen sizes to maximise screen space for page content.
 
-![Hamburger Menu - Default](Documentation/Hamburger_menu_1.png)
-
 #### Landing Page:
 - The landing page features a full background image of a music studio to relay a clear website purpose to the user.
 - The purpose of this page is to clearly welcome the user and briefly explain the services offered and the extent of the experience of the service provider.
@@ -132,16 +130,13 @@ As a result of the adjustments, the performance on the 'Instruments' page increa
 
 ### Validator Testing
 - HTML
-  - 1 error shown when passing through the offical [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fndominey.github.io%2FND-Music-Tuition%2F)
-   - Nav nested with in Label error due to Hamburger Menu
+  - No errors found when tested through official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fndominey.github.io%2FND-Music-Tuition%2F)
 
 - CSS
   - No errors found when tested through official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fndominey.github.io%2FND-Music-Tuition&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Unfixed Bugs
-- Hamburger Menu HTML coding causes html validation fail but presents no issue on deployed website. This needs to be addressed and Hamburger Menu created in a different method to remove error.
-- Hamburger Menu sometimes flashed when full screen page is loaded.
-- Hamburger Menu - add way to close menu without having to follow link to new page
+- No known bugs
 
 ## Technologies Used
 ### Main Languages Used
